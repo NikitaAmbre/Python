@@ -1,23 +1,23 @@
-# Q1) Given s = 'PythonProgramming', extract Python.
+# Given s = 'PythonProgramming', extract Python.
 s = 'PythonProgramming'
 print(s[0:6])
 
-# Q2) Extract Programming from the same string.
+# Extract Programming from the same string.
 print(s[6:])
 
-# Q3) Extract the first 6 characters of s.
+# Extract the first 6 characters of s.
 print(s[:7])
 
-#Q4)Extract the last 5 characters of s.
+#Extract the last 5 characters of s.
 print(s[12:])
 
-#Q5) Extract characters from index 3 to 9.
+#Extract characters from index 3 to 9.
 print(s[3:10])
 
 #Q6) Reverse the string s using slicing.
 
 print(s[:-18:-1])
-#Q7) Extract every second character from s.
+#Extract every second character from s.
 print(s[0::2])
 
 # Extract every third character from s.
@@ -90,7 +90,7 @@ print(t[1::3])
 print(t[::-2])
 
 # Extract the first 4 items in reverse order.
-print(t[:-5:-1])
+print(t[3::-1])
 
 # Given m = 'MachineLearning', extract Learning and reverse it.
 m = 'MachineLearning'
