@@ -1,20 +1,20 @@
 # Practise Question on elif statement
 
 #     WAP to find the smallest value among 4 given integer numbers.
-a=int(input("enetr a: "))
-b=int(input("enetr b: "))
-c=int(input("enetr c: "))
-d=int(input("enetr d: "))
-if a>b and a>c and a>d:
-    print(f"{a} is greater")
-elif b>c and b>d:
-    print(f"{b} is greater")
-elif c>d:
-    print(f"{c} is greater")
-elif d>a and d>b and d>c:
-    print(f"{d} is greater")
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+d = int(input("Enter d: "))
+if a < b and a < c and a < d:
+    print(f"{a} is the smallest")
+elif b < a and b < c and b < d:
+    print(f"{b} is the smallest")
+elif c < a and c < b and c < d:
+    print(f"{c} is the smallest")
+elif d < a and d < b and d < c:
+    print(f"{d} is the smallest")
 else:
-    print(f"{a} {b} {c} {d} are same numbers")
+    print("Two or more numbers are equal or all numbers are the same.")
     
 #     predict the status of the student result based on the obtained percentage.
 percentage=float(input("enter your percentage: "))
@@ -41,6 +41,8 @@ elif x < 0 and y < 0:
 elif x > 0 and y < 0:
     print("The point lies in Fourth Quadrant.")
 elif x == 0 and y == 0:
+    print("The point lies at the Origin.")
+elif x == 0:
     print("The point lies on the Y-axis.")
 else:
     print("The point lies on the X-axis.")
@@ -50,7 +52,7 @@ age=int(input("enter your age: "))
 if age>=18:
     print("eligible for vote")
 elif age>=21:
-    print("eligible for driving license")
+    print("eligible for driving license and vote")
 else:
     print("not eligible for vote and driving license")
 
