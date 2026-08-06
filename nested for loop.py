@@ -1,10 +1,10 @@
-# '''
-# * * * * *
-# * * * * *
-# * * * * *
-# * * * * *
-# * * * * *
-# '''
+'''
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+'''
 
 
 # n=int(input('Enter value for rows and columns: '))
@@ -15,9 +15,13 @@
 
 
 # #Primary diagonal
-
+'''
+*       
+  *     
+    *   
+      * 
+'''
 # n=int(input('Enter a value: '))
-
 # for i in range(1,n+1): #rows
 #   for j in range(1,n+1):
 #     if i==j:
@@ -27,9 +31,13 @@
 #   print()
 
 # #lower triangle w.r.t. primary diagonal
-
+'''
+*       
+* *     
+* * *   
+* * * * 
+'''
 # n=int(input('Enter a value: '))
-
 # for i in range(1,n+1): #rows
 #   for j in range(1,n+1): #columns
 #     if i>=j:
@@ -39,9 +47,13 @@
 #   print()
 
 # # #upper triangle w.r.t. primary diagonal
-
+'''
+* * * * 
+  * * * 
+    * * 
+      * 
+'''
 # n=int(input('Enter a value: '))
-
 # for i in range(1,n+1): #rows
 #   for j in range(1,n+1): #columns
 #     if i<=j:
@@ -51,9 +63,14 @@
 #   print()
 
 # #secodary diagonal
-
+'''
+        *   
+      *     
+    *       
+  *         
+*           
+'''
 # n=int(input('Enter a value: '))
-
 # for i in range(1,n+1): #rows
 #     for j in range(1,n+1):
 #         if i+j==n+1:
@@ -64,6 +81,11 @@
 
 
 # # #lower triangle w.r.t. secndary diagonal
+'''   * 
+    * * 
+  * * * 
+* * * *  
+'''
 # n=int(input('Enter a value: '))
 
 # for i in range(1,n+1): #rows
@@ -75,9 +97,14 @@
 #     print()
 
 # # #upper triangle w.r.t. secondary diagonal
-
+'''
+* * * * * 
+* * * *   
+* * *     
+* *       
+*    
+'''
 # n=int(input('Enter a value: '))
-
 # for i in range(1,n+1): #rows
 #     for j in range(1,n+1):
 #         if i+j<=n+1:
@@ -87,13 +114,13 @@
 #     print()
 
 
-# '''
-# @
-# * @
-# * * @
-# * * * @
-# * * * * @
-# '''
+'''
+@
+* @
+* * @
+* * * @
+* * * * @
+'''
 # n=int(input('Enter a value: '))
 
 # for i in range(1,n+1): #rows
@@ -108,7 +135,13 @@
 
 
 # # #print the pattern of hollow square
-
+'''
+* * * * *
+*       *
+*       *
+*       *
+* * * * * 
+'''
 # n=int(input('Enter a value:'))
 
 # for i in range(1,n+1):
@@ -156,7 +189,7 @@
 #   print()
 
 
-  # print the pattern L
+# print the pattern L
 
 # n=int(input('Enter a value:'))
 
@@ -169,18 +202,29 @@
 #   print()
 
 #print the pattern left angle triangle with hollow inside
+'''
+* * * * * 
+*     *   
+*   *     
+* *       
+*    '''
 
 # n=int(input('Enter a value:'))
-
 # for i in range(1,n+1): #rows
 #   for j in range(1,n+1): #columns
-#     if i==1 or j==1 or i+j==n+1 :
+#     if i==1 or j==1 or i+j==n+1:
 #       print('*',end=' ')
 #     else:
 #       print(' ',end=' ')
 #   print()
 
 # print a trangle pattern with hollow inside
+
+'''    *         
+      *   *       
+    *       *     
+  *           *   
+* * * * * * * * *  '''
 # n=int(input('Enter a value:'))
 # c=2*n-1
 # for i in range(1,n+1): #rows
@@ -193,7 +237,12 @@
 
 
 # print a right angle triangle pattern with hollow inside
-
+'''     * 
+      * *
+    *   *
+  *     *
+* * * * *
+''' 
 # n=int(input('Enter a value:'))
 # for i in range(1,n+1): #rows
 #   for j in range(1,n+1): #columns
