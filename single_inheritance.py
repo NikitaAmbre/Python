@@ -60,4 +60,35 @@ print()
 cust.disp()
 
 
+# 2.Banking System (Interview Favorite)
+# Create:
+# Account → account_number, balance, method deposit()
+# SavingsAccount → adds interest_rate and method apply_interest()
+# Requirements:
+# Use constructor chaining with super().Show balance before and after interest
+
+class Account:
+    def __init__(self,ac_no,balance):
+        self.ac_no=ac_no
+        self.balance=balance
+
+    def deposite(self):
+        print(f'your account number{self.ac_no} and balance {self.balance}')
+
+class SavingsAccount(Account):
+    def __init__(self,ac_no,balance,interest_rate):
+        super().__init__(ac_no,balance)
+        self.interest_rate=interest_rate
+
+    def apply_interest(self):
+        super().deposite()
+        print(f'interest rate is :{self.interest_rate}')
+
+ob1=SavingsAccount('AC223456',300000,'12%')
+
+ob1.deposite()
+print()
+ob1.apply_interest()
+        
+
 
