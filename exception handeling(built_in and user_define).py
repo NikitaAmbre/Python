@@ -32,7 +32,8 @@ except ValueError as e:    # this is a buil in exception
 # Given:
 # balance = 5000
 # Ask the user for a withdrawal amount.
-# If withdrawal amount > balance → raise InsufficientBalanceError Otherwise deduct the amount and display the remaining balance.
+# If withdrawal amount > balance → raise InsufficientBalanceError 
+# Otherwise deduct the amount and display the remaining balance.
 
 
 class InsufficientBalanceError(Exception):
